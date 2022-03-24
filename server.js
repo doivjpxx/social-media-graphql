@@ -1,5 +1,6 @@
 const { ApolloServer, gql } = require('apollo-server');
 
+require('./database');
 require('dotenv').config();
 
 const typeDefs = gql`
